@@ -29,9 +29,9 @@ API_OPTIONS = {
 }
 
 API_200_OPTIONS = {
-    "Miền Bắc 75s": "https://www.kqxs88.live/api/front/open/lottery/history/list/game?limitNum=200&gameCode=mbmg",
+    "Miền Bắc": "https://www.kqxs88.live/api/front/open/lottery/history/list/game?limitNum=200&gameCode=miba",
     "Miền Bắc 45s": "https://www.kqxs88.live/api/front/open/lottery/history/list/game?limitNum=200&gameCode=miba45",
-    "Miền Bắc": "https://www.kqxs88.live/api/front/open/lottery/history/list/game?limitNum=200&gameCode=miba"
+    "Miền Bắc 75s": "https://www.kqxs88.live/api/front/open/lottery/history/list/game?limitNum=200&gameCode=mbmg"
 }
 
 GIAI_LABELS = [
@@ -647,4 +647,5 @@ with tab2:
 with tab3:
     render_tab_charts()
 with tab4:
+
     render_tab_cau_vitri()
