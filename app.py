@@ -23,9 +23,9 @@ HEADERS = {
 }
 
 API_OPTIONS = {
-    "Miền Bắc 45s": "https://www.kqxs88.live/api/front/open/lottery/history/list/game?limitNum=50&gameCode=miba45",
+    "Miền Bắc": "https://www.kqxs88.live/api/front/open/lottery/history/list/game?limitNum=50&gameCode=miba",
     "Miền Bắc 75s": "https://www.kqxs88.live/api/front/open/lottery/history/list/game?limitNum=50&gameCode=mbmg",
-    "Miền Bắc": "https://www.kqxs88.live/api/front/open/lottery/history/list/game?limitNum=50&gameCode=miba"
+    "Miền Bắc 45s": "https://www.kqxs88.live/api/front/open/lottery/history/list/game?limitNum=50&gameCode=miba45"
 }
 
 API_200_OPTIONS = {
@@ -649,3 +649,4 @@ with tab3:
 with tab4:
 
     render_tab_cau_vitri()
+
